@@ -33,8 +33,8 @@
     <!-- header -->
     <header>
       <div class="container">
-        <div class="row">
-          <div class="col-4 col-sm-3 col-md-2 align-self-center">
+        <div class="row align-items-center">
+            <div class="col-4 col-sm-3 col-md-2 align-items-center">
             <img src="/img/logo.png" class="img-fluid" />
           </div>
           <div class="col">
@@ -43,13 +43,16 @@
           </div>
         </div>
       </div>
+      <div class="col-md-4">
+        <button class="btn btn-lg btn-info text-white" id="reserveForm">Reserve Campsite</button>
+    </div>
     </header>
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
       <div>
         <a class="navbar-brand" href="#"
-          ><img src="img/logo.png" height="30" width="30"
+          ><img src="img/logo.png" class="me-3" height="30" width="30"
         /></a>
         <button
           class="navbar-toggler"
@@ -211,7 +214,7 @@
                 <!-- Row 3: Submit Button -->
                 <div class="row mb-3">
                   <div class="col-12">
-                    <button type="submit" class="btn btn-primary">
+                    <button type="submit" id="reserveForm" class="btn btn-primary">
                       Search
                     </button>
                   </div>
