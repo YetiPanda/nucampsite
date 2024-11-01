@@ -30,8 +30,27 @@
     <title>Nucamp: A Better Way To Camp</title>
   </head>
   <body>
-    <!-- header -->
     <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-3 col-md-2 align-self-center">
+            <img src="img/logo.png" class="img-fluid" alt="image of Numcamp logo" />
+          </div>
+          <div class="col">
+            <h1>Nucamp</h1>
+            <h2>a better way to camp</h2>
+          </div>
+          <!--button-->
+          <div class="col-xl-2 col-md-4 mt-4">
+            <a href="#reserveForm" class="btn bg-primary text-light"
+              >Reserve Campsite</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+    <!-- <header>
       <div class="container">
         <div class="row">
             <div class="d-flex justify-content-start">
@@ -51,13 +70,13 @@
     <div class="d-flex justify-content-end">
         <button class="btn btn-primary me-md-2 btn-info btn-lg text-white" type="button" id="reserveForm">Reserve Campsite</button>
         </div>
-    </header>
+    </header> -->
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <!-- <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
       <div>
         <a class="navbar-brand" href="#"
-          ><img src="img/logo.png" class="ms-3" height="30" width="30"
+          ><img src="img/logo.png" class="ms-3" height="30" width="30" alt="image of Numcamp logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -94,6 +113,46 @@
               <span class="navbar-text ms-auto">
                 <a role="button" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
               </span>
+        </div>
+      </div> -->
+    <!-- </nav> -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="img/logo.png" height="30" width="30"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nucampNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nucampNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                ><i class="fa-solid fa-house fa-lg"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html"
+                ><i class="fa-solid fa-info fa-lg"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-list fa-lg"></i> Sites</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html"
+                ><i class="fa-solid fa-address-card fa-lg"></i> Contact</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
